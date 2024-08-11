@@ -16,6 +16,20 @@ body{
     margin: auto;
     color: var(--grey);
 }
+
+.user-card-info{
+    margin-bottom:20px;
+}
+
+.user-card-imge img {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    margin-top: -10px;
+    border:1px solid var(--grey) ;
+}
+
+
 .grid-element{
     display: grid;
     gap:0;

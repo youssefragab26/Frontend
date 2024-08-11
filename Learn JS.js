@@ -17,3 +17,7 @@ const birthYear = 2003; //fixed
 let currentYear = 2024; //can change
 let age = currentYear - birthYear;
 console.log(age)
+
+Number(null)
+Number(false)
+Number(true)
