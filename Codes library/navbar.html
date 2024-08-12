@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        background-color: black;
+    }
+    
+    
+    .navbar {
+    align-items: center;
+    border:1px solid #404040b5;
+    backdrop-filter: blur(10px);
+    padding: 5px;
+    display: inline-block;
+    background-color: rgba(114,114,114,.2);
+    border-radius:32px;
+    transition-duration:0.9s;
+}
+.navbar ul {
+    list-style-type: none; /* Remove the bullets from the list */
+    margin: 0; /* Remove the margin from the list */
+    padding: 0; /* Remove the padding from the list */
+  }
+
+  .navbar li {
+    float: left; /* Align the list items horizontally */
+  }
+
+  .navbar li a {
+    display: block; /* Make the links fill the entire list item */
+    color: white; /* Set the color of the links */
+    text-align: center; /* Center the text of the links */
+    padding: 5px 16px; /* Set the padding of the links */
+    text-decoration: none; /* Remove the underline from the links */
+  }
+
+  .navbar li a:hover {
+    background-color: #ddd; /* Change the background color of the links on hover */
+    color: black; /* Change the color of the links on hover */
+    border-radius:16px;
+}
+
+.navbar li a.active {
+    background-color: #04AA6D; /* Set the background color of the active link */
+    color: white; /* Set the color of the active link */
+    border-radius:16px;
+} 
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    user-select: none
+}
+</style>
+</head>
+<body>
+<!-- navbar -->
+<div class="nav">
+    <div class="navbar">
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Work</a></li>
+        <li><a href="skills.html">skills</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li class="B1"><a href="https://github.com/youssefragab26">Github</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- ---------------------------- -->
+</body>
+</html>
