@@ -1,4 +1,5 @@
-window.alert("الداخل بالجنيه المصرى")
-let zakah = window.prompt()
-document.write(`<h1> Your Zakah IS  ${zakah * 0.025} EGP</h1>`)
+window.alert("Income Money")
+let zakat = window.prompt()
+document.write(`<h1> Your Zakat IS ${zakat * 0.025} </h1>`)
+
 
