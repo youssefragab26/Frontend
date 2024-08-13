@@ -39,3 +39,7 @@ console.log(name)
 const name2 = "Joe3";
 console.log(name2)
 ////                                                                               
+//Array
+let beyou = ['joe','nour', 'ali' , 'halol']
+//             0      1       2       3
+console.log(beyou(0));
