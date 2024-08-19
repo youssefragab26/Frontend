@@ -8,7 +8,6 @@ let car = {
         console.log("Car is for sale");
     }
 }
-document.write(car.color);
 console.log(car);
 console.log(car.sale())
 
