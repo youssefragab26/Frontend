@@ -11,3 +11,15 @@ let car = {
 document.write(car.color);
 console.log(car);
 console.log(car.sale())
+
+let PrsonalInfo = {
+    name: "Youssef",
+    age: 21,
+    address: "Egypt",
+    phone: "01113985295",
+    email: "w9vZq@example.com",
+    gender: "male",
+    job: "programmer",
+}
+
+console.log(PrsonalInfo.job)
