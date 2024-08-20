@@ -22,3 +22,11 @@ let PrsonalInfo = {
 }
 
 console.log(PrsonalInfo.job)
+
+let userinfo = {
+    name : "",
+    usernmae : "",
+    password : "",
+    email : "",
+    age : 0,
+}
