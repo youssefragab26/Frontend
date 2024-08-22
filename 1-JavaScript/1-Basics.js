@@ -9,8 +9,8 @@
 // < less than
 // >= greater than or equal to
 // <= less than or equal to 
-document.write(`<h1 style="color:red">Hello World</h1>`)
-// document.write() // write in page
-// console.log() // write in console
-// window.alert() // write in popup
-//window.prompt() // write in popup and get input from user
+//Basics
+document.write("Be Yourself")// Write in page
+console.log("Hello")// Write in console
+window.alert("error")// Write in popup
+window.prompt("Haw Are You") // Write in popup and get input from user
