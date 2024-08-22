@@ -1,3 +1,3 @@
-let v = ['joe','nour', 'ali' , 'halol']
+let Array = ['joe','nour', 'ali' , 'halol']
 //              0      1       2       3
-console.log("v(0)");
+console.log("Array(0)");
