@@ -1,0 +1,21 @@
+body{
+    background: black;
+    color: white;
+    /*font-family: '__inter_Fallback_20b187';*/
+    padding: 2px;
+}
+p{
+    padding: 5px;
+}
+h1{
+    background: gray;
+    border-left: 2px solid gold;
+    border-right: 2px solid gold;
+    margin: 5px ;
+    color: black;
+    text-align: center;
+}
+h3{
+    border-left: 2px solid gold;
+    margin: 5px;
+}
