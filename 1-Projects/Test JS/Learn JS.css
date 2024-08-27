@@ -1,0 +1,50 @@
+:root{
+    --darkblue : #0e1117;
+    --white : #ffffff;
+    --grey : #c9d1d9;
+    --darkgrey : #8b949e;
+    --blue : #58a6ff;
+    --lightblue : #15223a;
+    --darkerblue : #21262c;
+}
+body{
+    background-color: var(--darkblue);
+}
+
+.container{
+    max-width: 85%;
+    margin: auto;
+    color: var(--grey);
+}
+
+.user-card-info{
+    margin-bottom:20px;
+}
+
+.user-card-imge img {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    margin-top: -10px;
+    border:1px solid var(--grey) ;
+}
+
+
+.grid-element{
+    display: grid;
+    gap:0;
+    grid-template-columns:1fr 3fr; ;
+}
+@media only screen and (max-width: 600px) {
+    .grid-element {
+        grid-template-columns: 1fr;
+    }
+}
+.navuser{
+    border-bottom: 1px solid var(--darkblue);
+    padding: 10px 0;
+}
+.navuser a{
+    color: var(--grey);
+    text-decoration: none;
+}

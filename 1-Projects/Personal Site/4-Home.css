@@ -1,0 +1,99 @@
+body{
+    background-color: #000319;
+    font-family: Bradley Hand, cursive;
+    color: aliceblue;
+}
+.A1 {
+    font-family:__inter_Fallback_20b187,ui-sans-serif,system-ui,-apple-system,"system-ui",Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+    font-size: 72px;
+    color: #F0FF00;
+    text-align:center ;
+}
+.A2{
+    text-align: center;
+}
+h2 {
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+.box {
+    border:2px solid #3b3b3b;
+    padding:10px;
+    display: inline-block;
+    background-color: #3b3b3b;
+    border-radius:16px;
+    transition-duration:0.9s;
+}
+.box:hover {
+    background-color: #F0FF00;
+    color: #000000;
+}
+
+footer{
+  text-align:right;
+  color: rgba(185, 185, 185, 0.317);
+  transition-duration:0.9s;
+}
+footer:hover{
+    color: #F0FF00;
+}
+
+.navbar {
+    align-items: center;
+    border:1px solid #404040b5;
+    backdrop-filter: blur(10px);
+    padding: 5px;
+    display: inline-block;
+    background-color: rgba(114,114,114,.2);
+    border-radius:32px;
+    transition-duration:0.9s;
+}
+.navbar ul {
+    list-style-type: none; /* Remove the bullets from the list */
+    margin: 0; /* Remove the margin from the list */
+    padding: 0; /* Remove the padding from the list */
+  }
+
+  .navbar li {
+    float: left; /* Align the list items horizontally */
+  }
+
+  .navbar li a {
+    display: block; /* Make the links fill the entire list item */
+    color: white; /* Set the color of the links */
+    text-align: center; /* Center the text of the links */
+    padding: 5px 16px; /* Set the padding of the links */
+    text-decoration: none; /* Remove the underline from the links */
+  }
+
+  .navbar li a:hover {
+    background-color: #ddd; /* Change the background color of the links on hover */
+    color: black; /* Change the color of the links on hover */
+    border-radius:16px;
+}
+
+.navbar li a.active {
+    background-color: #04AA6D; /* Set the background color of the active link */
+    color: white; /* Set the color of the active link */
+    border-radius:16px;
+} 
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    user-select: none
+}
+.B1{
+    border:1px solid #4dff007e;
+    border-radius:16px;
+    background-color: rgba(114, 114, 114, 0.452);
+}
+.b1:hover{
+    background-color: #4dff007e;
+}
