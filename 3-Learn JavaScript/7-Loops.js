@@ -11,4 +11,6 @@ for (let i = 0; i < cars.length; i++) {
         console.log(`Color: ${colors[k]}`);
     }
     console.log("-----------------------------");
-} 
+}
+
+
