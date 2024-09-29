@@ -7,3 +7,4 @@ A1.style.color = "#fa0";
 A1.style.padding = "10px";
 A1.style.borderLeft = "4px solid #fa0";
 
+document.getElementById("A2").innerHTML = "Hello World";
