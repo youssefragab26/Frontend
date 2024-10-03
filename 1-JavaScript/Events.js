@@ -1,9 +1,9 @@
-let button = document.getElementById("button-1");
+let button  = document.getElementById("button-1");
 let button2 = document.getElementById("button-2");
 let button3 = document.getElementById("button-3");
 let button4 = document.getElementById("button-4");
 let button5 = document.getElementById("button-5");
-let input = document.getElementById("input");
+let input   = document.getElementById("input");
 //ON CLICK
 button.onclick = function () {
     console.log("clicked");
