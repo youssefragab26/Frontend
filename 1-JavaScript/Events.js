@@ -1,15 +1,17 @@
-let button  = document.getElementById("button-1");
-let button2 = document.getElementById("button-2");
-let button3 = document.getElementById("button-3");
-let button4 = document.getElementById("button-4");
-let button5 = document.getElementById("button-5");
-let input   = document.getElementById("input");
+const button1 = document.getElementById("button-1");
+const button2 = document.getElementById("button-2");
+const button3 = document.getElementById("button-3");
+const button4 = document.getElementById("button-4");
+const button5 = document.getElementById("button-5");
+
 //ON CLICK
-button.onclick = function () {
-    console.log("clicked");
+
+button1.onclick = function () {
+    document.write(<h1>Button is clicked</h1>)
 }
+
 button2.onclick = function () {
-    document.body.style.background = 'black';
+    document.style.background = 'Black'
 }
 
 button.addEventListener("click", function () {
