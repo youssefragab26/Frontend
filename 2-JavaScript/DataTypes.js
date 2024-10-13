@@ -7,6 +7,8 @@ let color1 = "Yellow";
 let lastName = "Johnson";
 
 // Booleans
+//25 > 10 true
+//25 < 10 false
 let m = true;
 let y = false;
 
