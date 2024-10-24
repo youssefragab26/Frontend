@@ -10,3 +10,4 @@ console.log(array);
 
 const cars =["BMW", "Volvo", "Ford", "Fiat", "Audi"];
 console.log(cars)
+

@@ -24,3 +24,17 @@ let PrsonalInfo = {
 
 // to add new property to an object
 PrsonalInfo.job = "programmer";
+
+// Math Object
+// math.random()
+
+// Generate a decimal number between 0 and 0.99
+Math.random()
+// Save it in a variable
+var decimal = Math.random();
+// Log the value of decimal to the console
+console.log(decimal);
+// Log the value of decimal MULTIPLIED by 10
+console.log(decimal * 10);
+
+// ceil method
